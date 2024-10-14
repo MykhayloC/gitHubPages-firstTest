@@ -1,0 +1,315 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+a {
+  background-color: transparent;
+}
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+/* css-styles for project*/
+
+body {
+  background-color: grey;
+}
+body,
+.header-text,
+.header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 600px;
+  font-family: inter;
+  background-color: #ffffff;
+}
+header {
+  height: 136px;
+  color: #98a2b3;
+}
+.header-text {
+  height: 48px;
+}
+.header-text p {
+  width: 114px;
+  height: 24px;
+  font-size: 15px;
+  font-weight: 400;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.header-text a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  font-family: inter;
+  color: #98a2b3;
+}
+img {
+  width: 120px;
+  height: 56px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.main-header-text {
+  width: 552px;
+  height: 92px;
+  margin: 24px;
+}
+h1 {
+  width: 552px;
+  height: 36px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.main-header-text p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #667085;
+}
+.table-container {
+  padding: 24px;
+}
+tr {
+  height: 56px;
+}
+.item-column {
+  width: 376px;
+  text-align: left;
+  color: #667085;
+  border-bottom: 1px solid #e0e0e0;
+}
+.item-head,
+.qty-head,
+.price-head,
+.item-foot,
+.price-foot {
+  font-size: 16px;
+  font-weight: 600;
+}
+.qty-column {
+  width: 50px;
+  text-align: right;
+  color: #101828;
+  border-bottom: 1px solid #e0e0e0;
+}
+.price-column {
+  width: 126px;
+  text-align: right;
+  color: #101828;
+  border-bottom: 1px solid #e0e0e0;
+}
+.footer-container {
+  padding: 24px;
+}
+.footer-container table {
+  table-layout: fixed;
+  width: 552px;
+}
+.logo-column {
+  padding-left: 0;
+  padding-bottom: 0;
+}
+.footer-logo {
+  margin-top: 0;
+}
+.logo-column p {
+  height: 24px;
+  margin: 0;
+}
+.footer-company-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #101828;
+}
+.footer-company-slogan {
+  font-size: 15px;
+  font-weight: 400;
+  color: #667085;
+}
+
+.address-column {
+  font-size: 15px;
+  font-weight: 400;
+  color: #667085;
+  text-align: left;
+  vertical-align: bottom;
+}
