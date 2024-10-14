@@ -196,6 +196,8 @@ body,
 }
 .container {
   width: 600px;
+  margin-top: 5em;
+  margin-bottom: 5em;
   font-family: inter;
   background-color: #ffffff;
 }
